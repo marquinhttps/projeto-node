@@ -1,0 +1,17 @@
+{
+  "name": "10-projeto-node",
+  "version": "1.0.0",
+  "description": "Projeto Node.js I3B.",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rosinei Figueiredo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mysql2": "^3.11.0",
+    "sequelize": "^6.37.3"
+  }
+}
