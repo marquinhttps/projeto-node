@@ -7,7 +7,43 @@
     <title>cadastro de clientes</title>
 </head>     
 <body>
-   
+    <h1>Clientes do mercadinho</h1>
+    <form id="form1">
+        <input type="hidden" id="id">
+
+        <label for="nome">Nome</label>
+        <input type="text" id="nome"><br>
+
+        <label for="descricao">Descrição</label>    
+        <input type="text" id="descricao"><br>
+
+        <label for="quantidade">Quantidade</label>
+        <input type="text" id="quantidade"><br>
+
+        <label for="numero">Número</label>
+        <input type="text" id="numero"><br>
+        
+        <label for="preco">Preço</label>
+        <input type="text" id="preco"><br>
+
+
+        <button id="btSalvar">Salvar</button>
+    </form>
+    <hr>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>NOME</th>
+                <th>DESCRIÇÃO</th>
+                <th>QUANTIDADE</th>
+                <th>NÚMERO</th>
+        
+            </tr>
+        </thead>
+        <tbody id="tbody1">
+
+        </tbody>
+    </table>
 </body>
 <script src="manipula_interface.js" type="module"></script>
 </html>
