@@ -25,8 +25,7 @@ async function um(req, res) {
 async function altera(req, res) {
     const pro = await Produto.findOne({
         where: { id: req.body.id }
-    });
-
+    })
     pro.nome = req.body.nome,
         pro.quantidade = req.body.quantidade,
         pro.descricao = req.body.descricao,
