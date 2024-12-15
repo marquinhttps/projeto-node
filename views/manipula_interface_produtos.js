@@ -84,7 +84,6 @@ async function desenhaTabela() {
         const td3 = document.createElement('td');
         const td4 = document.createElement('td');
         const td5 = document.createElement('td');
-        const td6 = document.createElement('td');
 
         const btEd = document.createElement('button');
         const btEx = document.createElement('button');
