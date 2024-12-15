@@ -2,7 +2,7 @@ import { altera, buscaUm, exclui, getLista, novo } from "./acessa_dados_produtos
 
 async function salvar() {
     const iptNome = document.getElementById('nome');
-    const iptQuantidade = document.getElementById('quantiade');
+    const iptQuantidade = document.getElementById('quantidade');
     const iptDescricao = document.getElementById('descricao');
     const iptPreco = document.getElementById('preco');
 
@@ -22,7 +22,7 @@ async function editar() {
 
     const iptId = document.getElementById('id');
     const iptNome = document.getElementById('nome');
-    const iptQuantidade = document.getElementById('quantiade');
+    const iptQuantidade = document.getElementById('quantidade');
     const iptDescricao = document.getElementById('descricao');
     const iptPreco = document.getElementById('preco');
 
@@ -30,7 +30,7 @@ async function editar() {
 
         "id": iptId.value,
         "nome": iptNome.value,
-        "quantiade": iptQuantidade.value,
+        "quantidade": iptQuantidade.value,
         "descricao": iptDescricao.value,
         "preco": iptPreco.value,
     
@@ -66,7 +66,7 @@ async function preencheDadosParaEdicao(event) {
 
     document.getElementById('id').value = produto.id;
     document.getElementById('nome').value = produto.nome;
-    document.getElementById('quantidade').value = produto.quantiade;
+    document.getElementById('quantidade').value = produto.quantidade;
     document.getElementById('descricao').value = produto.descricao;
     document.getElementById('preco').value = produto.preco;
 
@@ -97,7 +97,7 @@ async function desenhaTabela() {
         btEx.addEventListener('click', excluir);
 
         td1.innerText = dados[i].nome;
-        td2.innerText = dados[i].quantiade;
+        td2.innerText = dados[i].quantidade;
         td3.innerText = dados[i].descricao;
         td4.innerText = dados[i].preco;
 
