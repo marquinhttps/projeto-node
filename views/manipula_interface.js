@@ -1,4 +1,4 @@
-import { altera, buscaUm, exclui, getLista, novo } from "./acessa_dados_clientes.js";
+import { altera, buscaUm, exclui, getLista, novo } from "./acessa_dados.js";
 
 async function salvar() {
     const iptNome = document.getElementById('nome');
