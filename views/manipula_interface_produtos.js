@@ -8,7 +8,7 @@ async function salvar() {
 
     const obj = {
         "nome": iptNome.value,
-        "quantiade": iptQuantidade.value,
+        "quantidade": iptQuantidade.value,
         "descricao": iptDescricao.value,
         "preco": iptPreco.value
     };
