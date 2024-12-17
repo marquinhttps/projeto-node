@@ -1,16 +1,11 @@
 import express from 'express';
-import path from 'path';
-import { fileURLToPath } from 'url';
-
 
 import rotas_clientes from './rotas/rotas_clientes.mjs';
 import rotas_produtos from './rotas/rotas_produtos.mjs';
 
-const __filename = fileURLToPath(import.meta.url); // get the resolved path to the file
-const __dirname = path.dirname(__filename); // get the name of the directory
 const app = express();
 
-app.use('/static', express.static(__dirname + '/views'));
+// app.use('/static', express.static(__dirname + '/views'));
 
 app.use(express.json());
 
