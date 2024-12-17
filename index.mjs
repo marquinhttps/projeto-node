@@ -4,7 +4,7 @@ import rotas_produtos from './rotas/rotas_produtos.mjs';
 
 const app = express();
 
-app.use(express.static(__dirname + '/public'));
+//app.use(express.static(__dirname + '/public'));
 
 app.use(express.json());
 
