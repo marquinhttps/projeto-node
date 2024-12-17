@@ -1,11 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>cadastro de clientes</title>
-</head>     
+</head>
+<header>
+    <ul>
+        <!-- mudar depois as origens das passtas em href-->
+        <li><a href="pagina">Cadastrar</a></li>
+        <li><a href="pagina">Listar</a></li>
+        <li><a href="pagina">Relatórios</a></li>
+        <li><a href="pagina">Venda</a></li>
+    </ul>
+
+</header>
+
 <body>
     <h1>Clientes do mercadinho</h1>
     <form id="form1">
@@ -14,7 +26,7 @@
         <label for="nome">Nome</label>
         <input type="text" id="nome"><br>
 
-        <label for="idade">Idade</label>    
+        <label for="idade">Idade</label>
         <input type="text" id="idade"><br>
 
         <label for="cpf">CPF</label>
@@ -22,7 +34,7 @@
 
         <label for="numero">Número</label>
         <input type="text" id="numero"><br>
-        
+
         <label for="cidade">Cidade</label>
         <input type="text" id="cidade"><br>
 
@@ -47,4 +59,5 @@
     </table>
 </body>
 <script src="manipula_interface.js" type="module"></script>
+
 </html>
